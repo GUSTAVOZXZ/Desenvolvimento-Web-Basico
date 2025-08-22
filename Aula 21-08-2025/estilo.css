@@ -1,0 +1,62 @@
+/*seletor de elementos*/
+p
+{
+    color: white;
+}
+
+p1
+{
+    font-size: xx-large;
+}
+
+
+h1 
+{
+    color: rgb(253, 255, 120);
+}
+
+h2
+{
+    color: yellow;
+    font-size: x-large;
+}
+
+ul
+{
+    font-size: x-large;
+}
+/*Seletor de ID*/
+#texto1
+{
+    color: white;
+    text-align: justify;
+}
+
+/*Seletores de classe*/
+li.myclass 
+{
+    font-size: x-large;
+}
+
+.myclass 
+{
+    background-color: black;
+    border-style:inset;
+    border-color:green;
+}
+
+.newclass
+{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+}
+
+body
+{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.teste-cores 
+{
+    padding: 2%;
+    background-color: rgb(120, 120, 120, 0.4);
+}
