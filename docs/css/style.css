@@ -1,0 +1,76 @@
+body
+{
+    background-color: lightslategray;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: black;
+}
+
+.titulo
+{
+    border-style: groove;
+    text-align: center;
+    background-color: lightblue;
+    padding: 1rem;
+}
+
+.container
+{
+    display: flex;
+    flex-direction: row;
+}
+
+div
+{
+    border-style:none;
+}
+
+.menu
+{
+    background-color: lightblue;
+    padding: 1rem;
+    margin-right: 1rem;
+    width: 30%;
+}
+
+.conteudo
+{
+    padding: 2rem;
+    width: 70%;
+}
+
+.item-menu
+{
+    padding: 0.6rem;
+    margin: 0.7rem 0rem 0.7rem 0rem;
+    list-style-type: none;
+    border-bottom: solid;
+}
+
+.item-menu:hover
+{
+    background-color: cornflowerblue;
+}
+
+section
+{
+    margin-top: 1rem;
+    padding: 1rem;
+}
+
+#sec1
+{
+    background-color:lightgoldenrodyellow;
+    border: solid;
+}
+
+#sec2
+{
+    background-color:lightgoldenrodyellow;
+    border: solid;
+}
+
+#sec3
+{
+    background-color:lightgoldenrodyellow;
+    border: solid;
+}
