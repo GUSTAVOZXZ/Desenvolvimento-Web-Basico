@@ -1,16 +1,14 @@
 body
 {
-    background-color: lightslategray;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    color: black;
+    background-color: rgb(244, 248, 251); 
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: rgb(34, 47, 62); 
 }
 
 .titulo
 {
-    border-style: groove;
+    font-family: 'Times New Roman', Times, serif;
     text-align: center;
-    background-color: lightblue;
-    padding: 1rem;
 }
 
 .container
@@ -21,21 +19,24 @@ body
 
 div
 {
-    border-style:none;
+    border-style: none;
 }
 
 .menu
 {
-    background-color: lightblue;
+    background-color: aliceblue;
     padding: 1rem;
     margin-right: 1rem;
     width: 30%;
+    border-radius: 0.7rem;
 }
 
 .conteudo
 {
     padding: 2rem;
     width: 70%;
+    background-color: white;
+    border-radius: 0.7rem;
 }
 
 .item-menu
@@ -43,34 +44,59 @@ div
     padding: 0.6rem;
     margin: 0.7rem 0rem 0.7rem 0rem;
     list-style-type: none;
-    border-bottom: solid;
+    border-bottom: 1px solid lightsteelblue;
+    color: rgb(34, 47, 62);
+    transition: background 0.2s, color 0.2s;
 }
 
 .item-menu:hover
 {
-    background-color: cornflowerblue;
+    background-color: deepskyblue;
+    color: white;
 }
 
 section
 {
     margin-top: 1rem;
     padding: 1rem;
+    background-color: rgb(244, 248, 251);
+    border-radius: 0.5rem;
 }
 
 #sec1
 {
-    background-color:lightgoldenrodyellow;
-    border: solid;
+    
+    background-color: aliceblue;
+    border: 1px solid lightsteelblue;
+    border-radius: 0.5rem;
+
 }
 
 #sec2
 {
-    background-color:lightgoldenrodyellow;
-    border: solid;
+    
+    background-color: aliceblue;
+    border: 1px solid lightsteelblue;
+    border-radius: 0.5rem;
 }
 
 #sec3
 {
-    background-color:lightgoldenrodyellow;
-    border: solid;
+    background-color: aliceblue;
+    border: 1px solid lightsteelblue;
+    border-radius: 0.5rem;
+}
+
+#sec4
+{
+    background-color: aliceblue;
+    border: 1px solid lightsteelblue;
+    border-radius: 0.5rem;
+}
+
+#sec5
+{
+    background-color: aliceblue;
+    border: 1px solid lightsteelblue;
+    border-radius: 0.5rem;
 }
