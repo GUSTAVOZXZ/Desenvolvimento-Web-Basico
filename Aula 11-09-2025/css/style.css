@@ -1,0 +1,29 @@
+body
+{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    background-color: lightcyan;
+}
+
+label
+{
+    display: block;
+    margin-top: 1rem;
+}
+
+.formulario
+{
+    margin: 2rem;
+    padding: 2rem;
+}
+
+input
+{
+    border-radius: 0.2rem;
+    border-color: darkgray;
+    padding: 0.4rem;
+}
+
+.data:hover
+{
+    background-color: wheat;
+}
