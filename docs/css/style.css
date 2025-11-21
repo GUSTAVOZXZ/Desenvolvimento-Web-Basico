@@ -1,0 +1,56 @@
+body
+{
+    background-color: lightgoldenrodyellow;
+}
+
+.titulo
+{
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+}
+
+.inicio
+{
+    border-radius: 3rem;
+    border-color: lightsalmon;
+    width: 60%;
+    max-width: 900px;
+    margin: 1.5rem auto;
+    padding: 1rem;
+    border-width: 3px 1px; 
+    background-color: royalblue;
+    color: white;
+    box-shadow: 
+    3px 3px 0 rgba(0,0,0,0.05),
+    6px 6px 0 rgba(0,0,0,0.1),
+    9px 9px 15px rgba(0,0,0,0.3),
+    12px 12px 25px rgba(0,0,0,0.4);
+    transition: transform 0.3s, box-shadow 0.3s;
+    text-align: center;
+}
+
+.respostas
+{
+    margin-top: 4rem;
+    border-style:ridge;
+    border-color: black;
+    padding: 1.5rem;
+    background-color: lightskyblue;
+    color: black;
+}
+
+.btn
+{
+    margin-right: 1rem;
+    transform: scale(1.5);
+    -webkit-transform: scale(1.5);
+    transform-origin: center center;
+    vertical-align: middle;
+}
+
+.btn2
+{
+    border-radius: 1rem;
+    padding: 0.8rem;
+    background-color: lightskyblue;
+    font-weight: 700;
+}
